@@ -1,0 +1,15 @@
+<%= form_for @post do |f| %>
+  <p>
+    <%= f.label :group %><br>
+    <%= f.text_field :group %>
+  </p>
+
+  <p>
+    <%= f.label :goal %><br>
+    <%= f.text_area :goal %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
